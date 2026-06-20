@@ -33,10 +33,10 @@
                 </button>
             </form>
 
-            <div class="mt-6 text-sm text-gray-600 text-center">
+            {{-- <div class="mt-6 text-sm text-gray-600 text-center">
                 <p>Demo: admin@bayarno.com / password</p>
                 <p>Demo: petugas@bayarno.com / password</p>
-            </div>
+            </div> --}}
         </div>
     </div>
 @endsection
