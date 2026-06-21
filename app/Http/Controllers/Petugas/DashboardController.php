@@ -63,6 +63,7 @@ class DashboardController extends Controller
         if ($request->ajax()) {
             return response()->json([
                 'html' => view('petugas.table', compact('siswa'))->render(),
+                'cards' => view('petugas.cards', compact('siswa'))->render(),
                 'pagination' => $siswa->links()->render()
             ]);
         }
